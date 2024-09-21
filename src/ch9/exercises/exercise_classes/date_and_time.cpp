@@ -30,7 +30,7 @@ void DateAndTime::setDate(const int month, const int day, const int year) {
     if (day > dateMax) {
         throw std::invalid_argument{"day was out of range"};
     }
-    // adjust for leap years
+
     m_month = month;
     m_day = day;
     m_year = year;
@@ -38,7 +38,7 @@ void DateAndTime::setDate(const int month, const int day, const int year) {
 }
 
 void DateAndTime::setTime(const int hour, const int minute, const int second) {
-    // validate hour, minute and second
+
     if (hour < 0 || hour >= 24) {
         throw std::invalid_argument{"hour was out of range"};
     }

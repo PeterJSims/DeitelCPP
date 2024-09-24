@@ -33,6 +33,6 @@ int main() {
     for (auto employee : employees) {
         delete employee;
     }
-
+    employees.clear();
     return 0;
 }

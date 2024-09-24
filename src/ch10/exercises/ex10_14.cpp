@@ -3,8 +3,6 @@
 //
 
 #include <iostream>
-#include <format>
-#include <print>
 #include "exercise_classes/checking_account.h"
 #include "exercise_classes/savings_account.h"
 

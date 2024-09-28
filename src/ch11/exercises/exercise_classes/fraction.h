@@ -13,19 +13,16 @@ public:
 
     std::string toString();
     double toDouble() const;
+
     Fraction operator+(const Fraction& other);
     Fraction operator-(const Fraction& other);
     Fraction operator*(const Fraction& other) const;
     Fraction operator/(const Fraction& other) const;
 
     friend bool operator==(const Fraction& lhs, const Fraction& rhs);
-
     friend bool operator<(const Fraction& lhs, const Fraction& rhs);
-
     friend bool operator<=(const Fraction& lhs, const Fraction& rhs);
-
     friend bool operator>(const Fraction& lhs, const Fraction& rhs);
-
     friend bool operator>=(const Fraction& lhs, const Fraction& rhs);
 
 private:

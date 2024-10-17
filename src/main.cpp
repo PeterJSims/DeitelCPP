@@ -1,21 +1,19 @@
-//#include <iostream>
-//#include <format>
-//#include <print>
-//#include <bitset>
+// #include <iostream>
+// #include <format>
+// #include <print>
+// #include <algorithm>
+// #include <random>
+// #include <fstream>
+// int main() {
+//     std::default_random_engine rand{};
+//     std::uniform_int_distribution distribution(1,1000);
+//     if(std::ofstream ostream{"50ints.txt"}) {
+//         for (int i{0}; i < 50; ++i) {
+//             ostream << distribution(rand) << " ";
+//         }
+//     } else {
+//         std::cout << "error";
+//     }
 //
-//int main() {
-//    std::bitset<20> b;
-//    b[3] = true;
-//
-//    std::cout << "\n";
-//    std::cout << b.to_string()<< '\n';
-//    std::cout << b.to_ulong() << '\n';
-//
-//    std::vector v{1, 2, 3, 4, 5};
-//    std::println("{}",v);
-//
-//    v.clear();
-//    std::println("{}",v);
-//
-//    return 0;
-//}
+//     return 0;
+// }

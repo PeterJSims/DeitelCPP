@@ -1,19 +1,22 @@
-// #include <iostream>
-// #include <format>
-// #include <print>
 // #include <algorithm>
-// #include <random>
-// #include <fstream>
+// #include <iostream>
+// #include <concepts>
+// #include <type_traits>
+// #include <list>
+//
+// template <typename T>
+// concept Numeric = std::integral<T> || std::floating_point<T>;
+//
+//
+// auto multiply(Numeric auto first, Numeric auto second) {
+//     return first * second;
+// }
+//
+//
 // int main() {
-//     std::default_random_engine rand{};
-//     std::uniform_int_distribution distribution(1,1000);
-//     if(std::ofstream ostream{"50ints.txt"}) {
-//         for (int i{0}; i < 50; ++i) {
-//             ostream << distribution(rand) << " ";
-//         }
-//     } else {
-//         std::cout << "error";
-//     }
+//     std::println("{}", multiply(3, 4));
+//     std::println("{}", multiply(3, 4.32));
+//
 //
 //     return 0;
 // }
